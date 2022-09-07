@@ -74,5 +74,6 @@ set_perm  ${MODPATH}/system/bin/curl 0 0 0755
 set_perm_recursive ${MODPATH}/scripts ${system_uid} ${system_gid} 0755 0755
 set_perm_recursive ${clash_data_dir} ${system_uid} ${system_gid} 0755 0644
 set_perm  ${MODPATH}/system/bin/clash  ${system_uid}  ${system_gid}  6755
+set_perm  ${MODPATH}/system/bin/clash_meta  ${system_uid}  ${system_gid}  6755
 set_perm  ${clash_data_dir}/clash.config ${system_uid} ${system_gid} 0755
 set_perm  ${clash_data_dir}/packages.list ${system_uid} ${system_gid} 0644
